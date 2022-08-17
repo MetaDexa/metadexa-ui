@@ -1,0 +1,12 @@
+{
+  "background_color": "#fff",
+  "display": "standalone",
+  "homepage_url": "https://app.metadexa.io",
+  "providedBy": { "name": "Metadexa", "url": "https://metadexa.io" },
+  "orientation": "portrait",
+  "name": "Metadexa",
+  "description": "Swap MetaDEX Aggregator",
+  "short_name": "Metadexa",
+  "start_url": ".",
+  "theme_color": "#ff007a"
+}
