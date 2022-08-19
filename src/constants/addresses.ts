@@ -129,7 +129,7 @@ export const ROUTER_ADDRESSES: AddressMap = {
   [SupportedChainId.POLYGON]: '0xCe7cbDA67DE0BFdBBBAEA0DB94434a722A353CF4',
 }
 export const METASWAP_ADDRESSES: AddressMap = {
-  [SupportedChainId.POLYGON]: '0xE10F5F77CF90c99976BceE524Fbf88504A2e6616',
+  [SupportedChainId.POLYGON]: '0x6afD834f6e3D5ad5A83E7838ca45F3DBDe3E323d',
 }
 export const BICONOMY_DAPP_API: AddressMap = {
   [SupportedChainId.POLYGON]: 'lD1x8FLPD.45318b65-8ab0-45c7-b59c-2f73137fb751',
