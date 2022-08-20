@@ -53,11 +53,11 @@ export default function Transaction({ hash }: { hash: string }) {
         success={success}
       >
         <RowFixed>
-          {/* <TransactionStatusText>
+          <TransactionStatusText>
             <span>
               <TransactionSummary info={info} /> ↗
             </span>
-         </TransactionStatusText> */}
+          </TransactionStatusText>
         </RowFixed>
         <IconWrapper pending={pending} success={success}>
           {pending ? <Loader /> : success ? <CheckCircle size="16" /> : <Triangle size="16" />}
