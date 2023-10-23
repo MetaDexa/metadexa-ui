@@ -245,8 +245,8 @@ export function useDerivedMarketInfo(
     inputError = <Trans>Connect Wallet</Trans>
   }
 
-  if (chainId !== 137) {
-    inputError = inputError ?? <Trans>Gasless is only available on Polygon</Trans>
+  if (chainId !== 137 && chainId !== 10) {
+    inputError = inputError ?? <Trans>Gasless is only available on Polygon and Optimism</Trans>
   }
 
   if (!parsedAmount) {
