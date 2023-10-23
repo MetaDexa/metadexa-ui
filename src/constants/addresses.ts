@@ -130,9 +130,11 @@ export const ROUTER_ADDRESSES: AddressMap = {
 }
 export const METASWAP_ADDRESSES: AddressMap = {
   [SupportedChainId.POLYGON]: '0x6afD834f6e3D5ad5A83E7838ca45F3DBDe3E323d',
+  [SupportedChainId.OPTIMISM]: '0x6fe9f5616ac30e0a66b5bc68d05f081471835bf7',
 }
 export const BICONOMY_DAPP_API: AddressMap = {
   [SupportedChainId.POLYGON]: 'lD1x8FLPD.45318b65-8ab0-45c7-b59c-2f73137fb751',
+  [SupportedChainId.OPTIMISM]: 'zoXlK_GwU.e5be1e3a-521d-4298-a66c-4940b26f2355'
 }
 export const V3_MIGRATOR_ADDRESSES: AddressMap = constructSameAddressMap('0xA5644E29708357803b5A882D272c41cC0dF92B34', [
   SupportedChainId.ARBITRUM_ONE,
